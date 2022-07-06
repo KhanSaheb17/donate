@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* global ---------------------*/
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10% ;
+}
+
+
+.bnr-t1  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width:100%;
+}
+
+.bnr-t2{
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+
+.half-width{
+  width:65%;
+}
+
+.description{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.mrb-10{
+  margin-bottom: 10px;
+}
+
+.mrb-20{
+  margin-bottom: 20px;
+}
+
+.mrr-30{
+  margin-right: 30px;
+}
+
+.btn-t1{
+  background-color: #ff5959;
+  border: none;
+  color:white;
+  padding: 8px 13px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.gray{
+  color:gray;
+}
+.light-gray{
+ color:  #CECECE;
+}
+
+/* global end-----------------*/
+
+
+hr{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+
+#sc1{
+  background-image: linear-gradient(to top,black,#00000000),url("./img/donation1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  height: 450px;
+}
+
+#sc1 h1{
+  font-size: 35px;
+}
+
+.amount-container{
+  display: flex;
+  gap:10px;
+}
+.amount {
+  background-color: #F9F9F9;
+  border: 2px solid #00000000;
+  padding: 20px;
+  color:#8D8D8D;
+  font-weight: bold;
+  border-radius: 5px;
+  transition:.3s ease;
+}
+.amount:hover{
+  background-color:#ffeeee;
+  border: 2px solid #ff5959;
+  color: #ff5959;
+}
+
+.small{
+  font-size:10px;
+}
+
+.plan-cards{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.plan-card{
+  width:218px;
+  padding: 40px 10px;
+  text-align: left;
+  border-radius:5px;
+}
+.pc-icon{
+  width: 40px;
+}
+
+#card1{
+  background-color: #EDF5F6;
+}
+
+#card2{
+  background-color: #ffeeee;
+}
+
+#card3{
+  background-color: #fff4d6;
+}
+
+.article{
+  width:50%;
+}
+
+.article-img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
