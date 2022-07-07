@@ -154,3 +154,44 @@ hr{
   object-fit: cover;
   border-radius: 10px;
 }
+
+.email-form{
+  display: flex;
+  justify-content: center;
+  padding: 40px 80px;
+  background-color: #fff4d6;
+}
+
+input[type=email]{
+  background-color: #F9F9F9;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  transition:.3s ease;
+  border-radius: 4px 0 0 4px;
+  }
+  
+input[type=email]:focus{
+  outline: thin solid black;
+}
+
+input[type=submit]{
+  border: none;
+  height: 40px;
+  padding: 10px 30px;
+  transition:.3s ease;
+  border-radius: 0 4px 4px 0;
+  background-color: #Ff5959;
+  color: white ;
+}
+.highlight {
+  color: #ff5959;
+  font-family: cursive;
+  font-weight: bolder;
+}
+footer{
+  min-height: 200px;
+  background-color: black;
+  color: white;
+}
+
