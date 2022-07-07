@@ -252,4 +252,7 @@ footer{
  .btn-t1 {
    padding: 10px 15px;
   }
+ .article2{
+   flex-direction: column-reverse;
+ }
 }
